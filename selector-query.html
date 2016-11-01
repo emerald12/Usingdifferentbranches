@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			selector-query
+	</title>
+	</head>
+	<style>
+
+		ul.menu>li{
+			display:inline;
+			margin-left: 5px; 
+			text-align: center; 
+	
+			
+		}
+	
+		ul.menu
+		{
+			background-color: yellow;
+			padding:10px;
+		}
+			
+		ul.menu> li> a
+		 {
+			text-align: center;
+			text-decoration: none;
+			color:white;
+			padding:10px;
+		 }
+		a:hover{
+			color:black;
+			}
+			ul.menu> li :hover {
+				background-color: red;
+			}
+	</style>
+	<body>
+		<ul class="menu">
+			<li> <a href=""> I</a>
+			</li>
+			<li> <a href=""> am </a>
+			</li>
+			<li> <a href="">a</a>
+			</li>
+			<li><a href=""> girl </a>
+			</li>
+		</ul>
+	</body>
+</html>
